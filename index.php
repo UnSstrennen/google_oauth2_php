@@ -31,7 +31,7 @@ if (!isset($_COOKIE['access_token'])) {
         "prompt" => "consent",
         "client_id" => $client_id,
         "response_type" => "code",
-        "scope" => "https://www.googleapis.com/auth/youtube.force-ssl",
+        "scope" => "https://www.googleapis.com/auth/" . $scope,
         "access_type" => "offline"
         );
     }
