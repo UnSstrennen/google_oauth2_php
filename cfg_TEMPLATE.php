@@ -3,5 +3,6 @@
 // put values from google API credentials
 $client_id = '';
 $client_secret = '';
-$redirect_uri = ''
+$redirect_uri = '';
+$scope = '';  // fill with scope you want to use
 ?>
